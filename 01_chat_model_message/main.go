@@ -12,7 +12,7 @@ import (
 )
 
 func main() {
-	godotenv.Load(".env")
+	godotenv.Load("../.env")
 
 	fmt.Println(os.Getwd())
 	fmt.Println(os.Getenv("OPENAI_BASE_URL"))
